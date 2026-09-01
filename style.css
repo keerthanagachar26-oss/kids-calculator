@@ -66,3 +66,21 @@ button:hover {
 .zero {
     grid-column: span 2;
 }
+/* Button animation */
+button {
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Calculator card */
+.calculator {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
